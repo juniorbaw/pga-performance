@@ -197,6 +197,47 @@ Statistiques joueurs et résultats du PGA Tour, saisons 2007–2025. Données m�
 
 Aucun identifiant, clé d'API ni fichier de credentials n'est présent dans ce dépôt.
 
+
+# Traçabilité BigQuery
+
+Les transformations ont été matérialisées progressivement dans BigQuery entre le 27 août et le 1er septembre 2026.
+
+## Tables créées
+
+### Staging
+
+- `stg_resultats`
+- `stg_tours`
+- `stg_driving`
+- `stg_fer`
+- `stg_putting`
+- `stg_longueur_parcours`
+
+### Dimensions
+
+- `dim_tournois`
+- `dim_joueurs`
+
+### Tables intermédiaires
+
+- `int_champ_tournoi`
+
+### Marts analytiques
+
+- `mart_z_driving`
+- `mart_z_fer`
+- `mart_z_putting`
+- `mart_vainqueurs`
+- `mart_evolution`
+- `mart_adequation`
+- `mart_meteo_bandes`
+
+## Méthode de contrôle
+
+Les créations ont été vérifiées à partir de l'historique des jobs BigQuery,
+via `INFORMATION_SCHEMA.JOBS_BY_USER`.
+
+Les tables ont été recréées lorsque les contrôles ont mis en évidence des problèmes de qualité : unités, typage, grain des données, doublons, standardisation des métriques ou sens des scores.
 ### Historique de construction
 
 - **27 août 2026** : ingestion, staging, dimensions, premiers Z-scores et vainqueurs ;
