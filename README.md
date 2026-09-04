@@ -14,8 +14,8 @@ Projet de fin de formation — Le Wagon, septembre 2026.
 
 ## L'équipe
 
-| Membre | Contribution |
-|---|---|
+| Membre |
+|---|
 | **Souleymane N'Diaye** — [@juniorbaw](https://github.com/juniorbaw) 
 | **Charles** 
 | **Brice** — [@BriceGit](https://github.com/BriceGit) 
