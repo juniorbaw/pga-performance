@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Données et exports lourds
+data/raw/
+*.csv
+*.xlsx
+*.parquet
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.log
