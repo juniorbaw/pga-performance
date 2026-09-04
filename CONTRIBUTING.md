@@ -10,4 +10,4 @@ Avant toute modification :
 2. Documenter les hypothèses et les sources.
 3. Ne pas publier de données sensibles, identifiants ou clés d’accès.
 4. Vérifier que les changements n’affectent pas le grain des tables analytiques.
-5. 😁😁😁😁
+5. Un grand merci d'avance de la part de Brice , Charles , Salim et Souleymane  😁😁😁😁
