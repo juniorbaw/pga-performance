@@ -139,7 +139,7 @@ Onze sources, dix défauts documentés. **Aucun n'a levé d'erreur** : les requ�
 | 7 | Grain météo incohérent : `J1` = jeudi en 2023-24, lundi en 2025 | croisement round × jour de semaine |
 | 8 | Doublon parfait résiduel (Sony Open 2012) | unicité de la clé après jointure |
 | 9 | Échelles de z-scores divergentes : σ de 1,00 / 0,36 / 0,10 selon l'aire | écart-type par saison |
-| 10 | **Signe inversé sur le composite putting** | top 5 d'une saison, lu par un connaisseur |
+| 10 | **Signe inversé sur le composite putting** | top 5 d'une saison, lu par Charles |
 
 Le dixième est le plus instructif. Le meilleur putteur de la saison 2023 sortait classé à **−3,44 écarts-types**. Détecté par une corrélation négative entre deux métriques qui auraient dû aller dans le même sens, puis confirmé en regardant simplement qui se trouvait en tête du classement.
 
