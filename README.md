@@ -196,3 +196,11 @@ BigQuery · SQL · Python (pandas, matplotlib) · Looker Studio · GitHub Pages
 Statistiques joueurs et résultats du PGA Tour, saisons 2007–2025. Données météorologiques par tournoi et par tour, 2023–2025. Longueur des parcours des quatre tournois majeurs.
 
 Aucun identifiant, clé d'API ni fichier de credentials n'est présent dans ce dépôt.
+
+### Historique de construction
+
+- **27 août 2026** : ingestion, staging, dimensions, premiers Z-scores et vainqueurs ;
+- **28 août 2026** : évolution des parcours et métriques de longueur ;
+- **30 août 2026** : création du mart d'adéquation ;
+- **1er septembre 2026** : création des bandes météo ;
+- **2 septembre 2026** : finalisation du dashboard contextuel, badges, photos et spiders.
